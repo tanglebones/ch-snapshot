@@ -1,0 +1,14 @@
+This is a library for creating a snapshot of data that can be read only memory mapped by multiple processes that want to share data.
+
+The idea is to move data that isn't updated often into a shared location.
+
+Currently nested table support is weak. (The nested table gets copied into memory.)
+
+TODO:
+ - Add a nested table API so we can avoid coping the nested table bytes
+ - Add helper for IKeyValuePair<string,string> to table
+ - Add helper for IKeyValuePair<string,byte[]> to table
+ - Add helper for updating the snapshot
+ - Add tests for multiple processes using a snapshot
+ - More tests!
+

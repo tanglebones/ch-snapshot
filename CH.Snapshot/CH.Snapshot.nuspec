@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>CH.Snapshot</id>
+    <version>1.0</version>
+    <authors>Clifford Hammerschmidt</authors>
+    <owners>Clifford Hammerschmidt</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</licenseUrl>
+    <projectUrl>https://github.com/tanglebones/ch-snapshot</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Library for creating a sharable read-only snapshot of string to byte array data. Version 1.0 has limited nested table support.</description>
+    <tags>Data Snapshot MemoryMapped mmap MemoryMappedFile</tags>
+  </metadata>
+</package>
